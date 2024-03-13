@@ -81,7 +81,7 @@ function defaulttext(){
     let c = document.getElementById("suggestion");
     if(c.innerHTML === ""){
         let p = document.createElement("p");
-        p.innerText = "IF you Dont Get What want feel free to mail as on abc@gmail.com ";
+        p.innerText = "If you dont Get What you want feel free to mail as on abc@gmail.com ";
         c.append(p);
     }
 }
