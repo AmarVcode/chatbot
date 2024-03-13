@@ -1,11 +1,38 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-#searchbar{
+#searchbar {
     width: 100%;
     padding: 1rem;
-    margin: .5rem;
+}
+
+#suggestion {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+#suggestion button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: purple;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 5px;
+}
+
+#suggestion p {
+    font-weight: bold;
+    line-height: 1.8;
+    text-align: center;
 }
