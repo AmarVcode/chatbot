@@ -1,0 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#searchbar{
+    width: 100%;
+    padding: 1rem;
+    margin: .5rem;
+}
